@@ -1,0 +1,103 @@
+/*
+CSS for Bubble Under Site
+*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e2edff;
+    line-height: 125%;
+    padding: 15px;
+    border: 4px solid navy;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    color: white;
+    background-color: navy;
+    padding-top: 2em;
+    padding-bottom: .2em;
+    padding-left: .4em;
+}
+
+li {
+    font-size: small;
+}
+
+h2 {
+    color: navy;
+    font-size: 130%;
+    font-weight: normal;
+    padding: 15px;
+}
+
+p {
+    font-size: small;
+    color: navy;
+}
+
+em {
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+#tagline p {
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #bed8f3;
+    border-top: 3px solid #7da5d8;
+    border-bottom: 3px solid #7da5d8;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .8em;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: navy;
+    color: white;
+}
+
+/* links styling starts here */
+
+a {
+    font-weight: bold;
+    color: black;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: navy;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: navy;
+}
+
+a:active {
+    color: aqua;
+    background-color: navy;
+}
+
+/* links styling ends here */
+
+.fun {
+    color: #339999;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.05em;
+}
+
+blockquote.fun {
+    font-style: italic;
+}
+
+#main-navigation {
+    width: 180px;
+    border: 1px dotted navy;
+    background-color: #7da5d8;
+}
