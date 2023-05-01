@@ -23,6 +23,7 @@ h1 {
 
 li {
     font-size: small;
+    list-style-type: circle;
 }
 
 h2 {
@@ -137,6 +138,11 @@ measured from the top-left corner of the browser's content display.
 #header {
     width: 100%;
     border-top: 3px solid #7da5d8;
+}
+
+.feature {
+    float: right;
+    margin: 10px;
 }
 
 /*Positioning ends here */
