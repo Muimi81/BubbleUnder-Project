@@ -103,7 +103,8 @@ blockquote.fun {
 
 #main-navigation {
     width: 180px;
-    background-color: #7da5d8;
+    height: 484px;
+    background-color: #7da5d8 url(gallery/nav-back.PNG) no-repeat;
 }
 
 h2, ul {
