@@ -183,4 +183,27 @@ table.events th, table.events td {
     border: 1px solid #000066;
 }
 
+table.events th {
+    font-size: x-small;
+    text-align: left;
+    background: #241374 url(gallery/header-bg.PNG);
+    color: #ffffff;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+table.events td {
+    font-size: small;
+}
+
+table.events caption {
+    color: #000066;
+    font-size: small;
+    text-align: left;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
 /* Styling the events table - ends here */
