@@ -171,3 +171,16 @@ measured from the top-left corner of the browser's content display.
     border-bottom: 1px solid navy;
     margin-bottom: 10px;
 }
+
+/* Styling the events table - starts here */
+
+table.events {
+    border-collapse: collapse;
+}
+
+table.events th, table.events td {
+    padding: 4px;
+    border: 1px solid #000066;
+}
+
+/* Styling the events table - ends here */
