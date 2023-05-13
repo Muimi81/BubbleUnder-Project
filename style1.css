@@ -196,6 +196,7 @@ table.events th {
 
 table.events td {
     font-size: small;
+    background: #e2edff;
 }
 
 table.events caption {
