@@ -166,7 +166,7 @@ measured from the top-left corner of the browser's content display.
 }
 
 .galleryphoto {
-padding-bottom: 20px;
-border-bottom: 1px solid navy;
-margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid navy;
+    margin-bottom: 10px;
 }
