@@ -171,20 +171,3 @@ measured from the top-left corner of the browser's content display.
     border-bottom: 1px solid navy;
     margin-bottom: 10px;
 }
-
-td {
-    border: 1px solid black;
-    padding: 0.2em;
-}
-
-table {
-    border-collapse: collapse;
-    border: 1px solid black;
-}
-
-th {
-    text-align: left;
-    background: grey;
-    color: white;
-    padding: 0.2em;
-}
