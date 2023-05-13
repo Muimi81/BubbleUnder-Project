@@ -142,10 +142,10 @@ measured from the top-left corner of the browser's content display.
     border-top: 3px solid #7da5d8;
 }
 
-/*.feature {
+.feature {
     float: right;
     margin: 10px;
-}*/
+}
 
 /*Positioning ends here */
 
