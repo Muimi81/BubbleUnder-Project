@@ -231,4 +231,10 @@ form.contact {
     line-height: 150%;
 }
 
+form.contact label {
+    font-weight: bold;
+    font-size: small;
+    color: blue;
+}
+
 /*styling the contact form*/
