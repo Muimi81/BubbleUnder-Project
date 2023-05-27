@@ -61,7 +61,7 @@
             To let us know about a forthcoming dive event, please use the form below.
         </p>
 
-        <form action="" method="post" class="contact">
+        <form action="" method="post" class="contact"><!--contact form begins here-->
             
             <fieldset>
 
@@ -69,31 +69,185 @@
 
                 <div>
 
-                    <label for="contactname">Contact Name</label>
+                    <label for="contactname" class="fixedwidth">Contact Name</label>
 
                     <input type="text" name="contactname" id="contactname"/>
 
                 </div>
 
                 <div>
-                    1
+                    
+                    <label for="telephone" class="fixedwidth">Telephone</label>
+
+                    <input type="text" name="telephone" id="telephone"/>
+
                 </div>
 
                 <div>
-                    2
+                    
+                    <label for="email" class="fixedwidth">Email Address</label>
+
+                    <input type="text" name="email" id="email"/>
+
                 </div>
 
                 <div>
-                    3
+                    
+                    <label for="eventname" class="fixedwidth">What's the event called?</label>
+
+                    <input type="text" name="eventname" id="eventname"/>
+
                 </div>
 
                 <div>
-                    4
+                    
+                    <label for="eventdate" class="fixedwidth">When's the event happening?</label>
+
+                    <input type="text" name="eventdate" id="eventdate"/>
+
                 </div>
+
+                <!--select element for the form begins here (below)-->
+
+                <div>
+                    
+                    <label for="region" class="fixedwidth">What region is the event in?</label>
+
+                    <select name="region" id="region">
+
+                        <option>
+                            South-west
+                        </option>
+
+                        <option>
+                            South-east
+                        </option>
+
+                        <option>
+                            Midlands
+                        </option>
+
+                        <option>
+                            Central
+                        </option>
+                        
+                        <option>
+                            London
+                        </option>
+
+                        <option>
+                            East
+                        </option>
+
+                        <option>
+                            North
+                        </option>
+
+                        <option>
+                            Scotland
+                        </option>
+
+                        <option>
+                            Northern
+                        </option>
+
+                        <option>
+                            Wales
+                        </option>
+
+                        <option>
+                            International (see details below)
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <!--select element for the form ends here-->
+
+
+                <!--text area elements goes here - starting (below)-->
+
+                <div>
+
+                    <p>
+                        Please provide any other details you think will be useful to us in the text area below
+                        (it may save us calling or emailing you, and help to avoid delays).
+                    </p>
+
+                    <label for="details" class="fixedwidth">More details (as much as you think we'll need!)</label>
+
+                    <textarea id="details" name="details" cols="30" rows="7"></textarea>
+
+                </div>
+
+                <!--text area elements goes here - ending-->
+
+
+                <!--radio buttons starts here(below)-->
+
+                <div>
+
+                    <p>
+                        If we need to call you back for any more info, what would be the best time to call you on the
+                        number supplied?
+                    </p>
+
+                    <input type="radio" name="timetocall" id="morning" value="Morning"/>
+
+                    <label for="morning">In the morning</label>
+
+                    <br/>
+
+                    <input type="radio" name="timetocall" id="afternoon" value="Afternoon"/>
+
+                    <label for="afternoon">In the afternoon</label>
+
+                    <br/>
+
+                    <input type="radio" name="timetocall" id="evening" value="Evening"/>
+
+                    <label for="evening">In the evening</label>
+
+                    <br/>
+
+                    <input type="radio" name="timetocall" id="never" value="Never" checked="checked"/>
+
+                    <label for="never">No calls please</label>
+
+                </div>
+
+                <!--radio buttons ends here-->
+
+
+                <!--checkboxes starts here(below)-->
+
+                <div>
+
+                    <p>
+                        Bubble Under may share information you give us here with other like-minded people or websites
+                        to promote the event. Please confirm if you are happy for us to do this.
+                    </p>
+
+                    <input type="checkbox" name="publicize" id="publicize" checked="checked"/>
+
+                    <label for="publicize">
+                        I am happy for this event to be publicized outside of and beyond BubbleUnder.com, where possible
+                    </label>
+
+                </div>
+
+                <!--checkboxes ends here-->
 
             </fieldset>
 
-        </form>
+            <div class="buttonarea">
+                
+                <input type="submit" value="Send Us the Info"/>
+
+            </div>
+
+        </form><!--contact form ends here-->
 
         <p>
             If you need to get in touch urgently, please call Bob Dobalina on 01793 641207. For anything else,
