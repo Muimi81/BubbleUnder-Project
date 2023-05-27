@@ -208,3 +208,20 @@ table.events caption {
 }
 
 /* Styling the events table - ends here */
+
+
+/*styling the contact form*/
+
+form.contact fieldset {
+    border: 2px solid navy;
+    padding: 10px;
+}
+
+form.contact legend {
+    font-weight: bold;
+    font-size: small;
+    color: navy;
+    padding: 5px;
+}
+
+/*styling the contact form*/
