@@ -260,3 +260,27 @@ form.contact .buttonarea {
 }
 
 /*styling the contact form*/
+
+nav ul {
+    margin: 0;
+    padding-top: 15px;
+}
+
+aside {
+    display: block;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    width: 30%;
+    background: white;
+    font-style: italic;
+    color: gray;
+}
+
+aside blockquote {
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin: 0 0 0.5em 0;
+    font-style: normal;
+    color: #006;
+}
