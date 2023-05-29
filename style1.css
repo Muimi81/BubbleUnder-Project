@@ -208,7 +208,7 @@ figure img {
 /* Styling the events table - starts here */
 
 table.events {
-    border-collapse: collapse;
+    border-collapse: separate;
 }
 
 table.events th, table.events td {
