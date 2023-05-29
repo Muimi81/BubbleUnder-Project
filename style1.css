@@ -130,6 +130,15 @@ nav, #bodycontent, header {
     position: absolute;
 }
 
+nav a {
+    text-shadow: 1px 1px 2px white, -1px -1px 2px white; /*adds shadows to navigation link texts*/
+    text-decoration: none;
+}
+
+nav a:hover, nav a:focus {
+    text-shadow: none; /* removes text shadow to active navigation links */
+}
+
 nav, #bodycontent {
     top: 107px;
 }
@@ -151,11 +160,15 @@ header {
 
 /*Positioning ends here */
 
-.galleryphoto img {
+
+/* Gallery styling - starts (below) */
+
+figure img {
     border: 15px solid white;
 }
 
-.galleryphoto p {
+figcaption {
+    display: block;
     font-size: 65%;
     font-weight: bold;
     margin-top: 0;
@@ -168,11 +181,29 @@ header {
     color: gray;
 }
 
-.galleryphoto {
+figure {
+    display: block;
     padding-bottom: 20px;
     border-bottom: 1px solid navy;
     margin-bottom: 10px;
 }
+
+figcaption span {
+    font-weight: normal;
+    color: gray;
+}
+
+figure img {
+    border: 15px solid white;
+
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px gray; /*creates a shadow effect with the images in the gallery */
+    -webkit-box-shadow: 2px 2px 5px gray; /*creates a shadow effect with the images in the gallery */
+    margin-bottom: 10px;
+}
+
+/*  Gallery styling - ends */
+
 
 /* Styling the events table - starts here */
 
@@ -275,6 +306,13 @@ aside {
     background: white;
     font-style: italic;
     color: gray;
+
+    border: 2px solid gray;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
 }
 
 aside blockquote {
