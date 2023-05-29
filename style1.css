@@ -102,10 +102,11 @@ blockquote.fun {
     font-style: italic;
 }
 
-#main-navigation {
+nav {
     width: 180px;
     height: 484px;
     background-color: #7da5d8 url(gallery/nav-back.PNG) no-repeat;
+    display: block; /* Only for IE 8 and below versions */
 }
 
 h2, ul {
@@ -125,11 +126,11 @@ This section deals with the position of items on the screen. It uses absolute po
 measured from the top-left corner of the browser's content display.
 */
 
-#main-navigation, #bodycontent, #header {
+nav, #bodycontent, header {
     position: absolute;
 }
 
-#main-navigation, #bodycontent {
+nav, #bodycontent {
     top: 107px;
 }
 
@@ -137,9 +138,10 @@ measured from the top-left corner of the browser's content display.
     left: 200px;
 }
 
-#header {
+header {
     width: 100%;
     border-top: 3px solid #7da5d8;
+    display: block; /* Only for IE 8 and below*/
 }
 
 .feature {
