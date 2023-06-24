@@ -12,6 +12,8 @@ $ (document).ready(function(){
 
     $("#details").val("The more you can enter here, the less we have to check with you :)");
 
+    $("#q, #search-box").val("Enter search phrase");
+
     $("input, textarea").focus(function(){
         $(this).select();
     });
